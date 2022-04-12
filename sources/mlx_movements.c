@@ -6,7 +6,7 @@
 /*   By: xle-boul <xle-boul@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/09 07:25:08 by xle-boul          #+#    #+#             */
-/*   Updated: 2022/04/12 20:11:55 by xle-boul         ###   ########.fr       */
+/*   Updated: 2022/04/12 21:01:07 by xle-boul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,23 +115,6 @@ void	ft_move_right(t_huge *data)
 // Hero movement based on key press. Send to the proper
 // function. Also triggers the display of numbers on
 // sceen.
-
-// int	ft_movement_init(int key, t_huge *data)
-// {
-// 	if (key == 53)
-// 		ft_free_game(data);
-// 	else if (key == 13)
-// 		ft_move_up(data);
-// 	else if (key == 0)
-// 		ft_move_left(data);
-// 	else if (key == 1)
-// 		ft_move_down(data);
-// 	else if (key == 2)
-// 		ft_move_right(data);
-// 	else
-// 		return (0);
-// 	return (0);
-// }
 
 int	ft_movement_init(int key, t_huge *data)
 {

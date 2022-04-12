@@ -6,7 +6,7 @@
 /*   By: xle-boul <xle-boul@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 15:41:59 by xle-boul          #+#    #+#             */
-/*   Updated: 2022/04/12 20:49:04 by xle-boul         ###   ########.fr       */
+/*   Updated: 2022/04/12 21:00:47 by xle-boul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,8 @@ void	ft_arrange_status_bar(t_huge *data, int x)
 	{
 		while (i < data->map_size_y)
 		{
-			mlx_put_image_to_window(data->mlx, data->mlx_win, data->st, 3 * SIZE, i);
+			mlx_put_image_to_window(data->mlx,
+				data->mlx_win, data->st, 3 * SIZE, i);
 			i += 32;
 		}
 	}
